@@ -57,3 +57,6 @@ We use `MediaEval2023-Medico-EvalScript/medico_eval_scripts/subtask3_run_motilit
 
 ## Subtask 4: Predicting motility using graph data structures
 You should use the tracking evaluation script to evaluate the tracking results.
+
+# Acknowledgement
+The evaluation scripts are modified from [TrackEval](https://github.com/JonathonLuiten/TrackEval) and [pycocotools](https://github.com/cocodataset/cocoapi/tree/master/PythonAPI/pycocotools).
