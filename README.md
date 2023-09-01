@@ -1,7 +1,7 @@
 # MediaEval2023-Medico-EvalScript
 
 **Prerequisites**: 
-1. Download this [example data]().
+1. Download this [example data](https://drive.google.com/file/d/1nSsQbAMxCmZoLeEAQwVLYVbQA7zq2WQG/view?usp=sharing).
 2. Create a conda enviroment name `medico` with python 3.8 as follows:
 
 ```python
@@ -33,7 +33,7 @@ pip install requirements.txt
     ...
 ]
 ```
-make sure the "image_id" matches the `annotations/Train.json` or `annotations/Val.json` in the provided files.
+make sure the "image_id" matches the `annotations/Train.json` or `annotations/Val.json` in the provided files. We provide an example `detection_example_prediction.json` in the example data.
 
 ---
 
