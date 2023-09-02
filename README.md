@@ -15,7 +15,7 @@ pip install requirements.txt
 
 ### Detection
 
-- We use pycocotools to evaluate the detection results. The evaluation script is `MediaEval2023-Medico-EvalScript/medico_eval_scripts/run_detect.sh`.
+- We use pycocotools to evaluate the detection results. The evaluation script is `MediaEval2023-Medico-EvalScript/medico_eval_scripts/subtask1_run_detect.sh`.
 - To use the script, prepare a resFile in the format of COCO json file:
 ```
 [
@@ -39,7 +39,7 @@ make sure the "image_id" matches the `annotations/Train.json` or `annotations/Va
 
 ### Tracking
 
-- We use TrackEval to evaluate the tracking results. The evaluation script is `MediaEval2023-Medico-EvalScript/medico_eval_scripts/run_track.sh`.
+- We use TrackEval to evaluate the tracking results. The evaluation script is `MediaEval2023-Medico-EvalScript/medico_eval_scripts/subtask1_run_track.sh`.
 - We have provided an example data format for using this script in the trackeval_MOT folder. There are 2 folders:
     - `gt/mot_challenge`: contains the ground truth data in the format of MOTChallenge:
         - `MOT17-*`: contain the ground truth data for different splits.
