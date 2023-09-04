@@ -8,7 +8,7 @@
 conda create -n medico python=3.8 -y
 conda activate medico
 cd MediaEval2023-Medico-EvalScript
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Subtask 1: Sperm detection and tracking
