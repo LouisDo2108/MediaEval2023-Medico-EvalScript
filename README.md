@@ -1,5 +1,9 @@
 # MediaEval2023-Medico-EvalScript
 
+# [Oct 17th, 2023] Update Instruction: 
+The YOLO repositories, including YOLOv5, have built-in support for generating output in the COCO-style JSON format. Specifically, in YOLOv5, you can conveniently use the "save_json" argument, located in line 116 of this [validation file](https://github.com/ultralytics/yolov5/blob/e4df1ec5bab52601d5de6d62d428dfd03ab53be1/val.py). Kindly follow this convention to seamlessly convert your YOLO-style output to COCO-style output.
+
+
 **Prerequisites**: 
 1. Download this [example data](https://drive.google.com/file/d/1nSsQbAMxCmZoLeEAQwVLYVbQA7zq2WQG/view?usp=sharing).
 2. Create a conda enviroment name `medico` with python 3.8 as follows:
